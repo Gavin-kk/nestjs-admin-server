@@ -1,9 +1,9 @@
 import { HttpException, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Users } from '../entities/Users';
+import { Users } from '../../entities/Users';
 import { Repository } from 'typeorm';
 import { Interface } from 'readline';
-import { Role } from '../entities/Role';
+import { Role } from '../../entities/Role';
 import { UpdateDto } from './dto/update.dto';
 import { RoleDto } from './dto/role.dto';
 

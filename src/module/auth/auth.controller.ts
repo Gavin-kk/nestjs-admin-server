@@ -18,7 +18,7 @@ import { AuthGuard } from '@nestjs/passport';
 import { CurrentUser } from '../../common/decorator/current-user.decorator';
 import { JwtService } from '@nestjs/jwt';
 import { UpdateDto } from './dto/update.dto';
-import { Users } from '../entities/Users';
+import { Users } from '../../entities/Users';
 import { GetiUserDto } from './dto/geti-user.dto';
 import { DeleteDto } from './dto/delete.dto';
 import { SearchDto } from './dto/search.dto';

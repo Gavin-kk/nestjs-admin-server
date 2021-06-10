@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { IsArray, IsNotEmpty } from 'class-validator';
-import { Role } from '../../entities/Role';
+import { Role } from '../../../entities/Role';
 
 export class UpdateRoleDto extends Role {
   @ApiProperty({ description: '根据此id更新角色' })

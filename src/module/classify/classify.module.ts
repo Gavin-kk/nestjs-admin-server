@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { ClassifyController } from './classify.controller';
 import { ClassifyService } from './classify.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Classify } from '../entities/Classify';
+import { Classify } from '../../entities/Classify';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Classify])],

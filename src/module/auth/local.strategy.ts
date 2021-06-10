@@ -1,7 +1,7 @@
 import { PassportStrategy } from '@nestjs/passport';
 import { Strategy, IStrategyOptions } from 'passport-local';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Users } from '../entities/Users';
+import { Users } from '../../entities/Users';
 import { Repository } from 'typeorm';
 import { HttpException } from '@nestjs/common';
 import { compareSync } from 'bcryptjs';

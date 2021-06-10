@@ -1,10 +1,10 @@
 import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy, StrategyOptions } from 'passport-jwt';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Users } from '../entities/Users';
+import { Users } from '../../entities/Users';
 import { Repository } from 'typeorm';
 import { HttpException, HttpStatus } from '@nestjs/common';
-import { Role } from '../entities/Role';
+import { Role } from '../../entities/Role';
 
 // 验证的token
 export class JwtStrategy extends PassportStrategy(Strategy) {

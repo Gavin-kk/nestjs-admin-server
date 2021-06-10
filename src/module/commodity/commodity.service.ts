@@ -1,16 +1,16 @@
 import { HttpException, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Goods } from '../entities/Goods';
+import { Goods } from '../../entities/Goods';
 import {
   InsertResult,
   Repository,
   SelectQueryBuilder,
   UpdateResult,
 } from 'typeorm';
-import { ClassifyGoods } from '../entities/ClassifyGoods';
+import { ClassifyGoods } from '../../entities/ClassifyGoods';
 import { AddGoodsDto } from './dto/add-goods.dto';
 import { UpdateGoodsDto } from './dto/update-goods.dto';
-import { Classify } from '../entities/Classify';
+import { Classify } from '../../entities/Classify';
 import { UpdateStatusDto } from './dto/update-status.dto';
 import { ListDto } from './dto/list.dto';
 import { SearchDto } from './dto/search.dto';

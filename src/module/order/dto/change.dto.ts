@@ -1,6 +1,6 @@
 import { IsNotEmpty } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
-import { Order } from '../../entities/Order';
+import { Order } from '../../../entities/Order';
 
 export class ChangeDto extends Order {
   @ApiProperty({ description: '订单id 不能为空' })

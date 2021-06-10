@@ -2,7 +2,7 @@ import { HttpException, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { readdir, readdirSync, unlinkSync } from 'fs';
 import { resolve } from 'path';
-import { Goods } from '../entities/Goods';
+import { Goods } from '../../entities/Goods';
 import { Repository } from 'typeorm';
 import { DeleteImgDto } from './dto/delete-img.dto';
 import { unlink } from 'fs/promises';

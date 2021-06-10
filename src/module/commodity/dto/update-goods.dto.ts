@@ -1,4 +1,4 @@
-import { Goods } from '../../entities/Goods';
+import { Goods } from '../../../entities/Goods';
 import { IsNotEmpty } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 

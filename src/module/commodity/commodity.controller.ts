@@ -17,7 +17,7 @@ import { UpdateStatusDto } from './dto/update-status.dto';
 import { ListDto } from './dto/list.dto';
 import { SearchDto } from './dto/search.dto';
 import { InsertResult, SelectQueryBuilder, UpdateResult } from 'typeorm';
-import { Goods } from '../entities/Goods';
+import { Goods } from '../../entities/Goods';
 import { AllGoodsDto } from './dto/all-goods.dto';
 import { PaginationDto } from './dto/pagination.dto';
 import { DetailsDto } from './dto/details.dto';

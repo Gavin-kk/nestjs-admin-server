@@ -1,4 +1,4 @@
-import { Classify } from '../entities/Classify';
+import { Classify } from '../../entities/Classify';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { HttpException, Injectable } from '@nestjs/common';

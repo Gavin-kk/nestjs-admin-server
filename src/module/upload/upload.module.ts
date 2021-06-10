@@ -4,7 +4,7 @@ import { UploadController } from './upload.controller';
 import { UploadService } from './upload.service';
 import { fileFilter, storage } from '../../config/upload.config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Goods } from '../entities/Goods';
+import { Goods } from '../../entities/Goods';
 
 @Module({
   imports: [

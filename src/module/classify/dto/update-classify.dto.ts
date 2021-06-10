@@ -1,4 +1,4 @@
-import { Classify } from '../../entities/Classify';
+import { Classify } from '../../../entities/Classify';
 import { ApiProperty } from '@nestjs/swagger';
 import { IsNotEmpty } from 'class-validator';
 

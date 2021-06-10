@@ -35,6 +35,7 @@ async function bootstrap() {
   app.useGlobalInterceptors(new TransformInterceptor());
   // 开启cors跨域
   app.enableCors();
+
   //配置静态资源
   await app.listen(process.env.APP_PORT);
 }

@@ -1,6 +1,6 @@
 import { IsNotEmpty } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
-import { Users } from '../../entities/Users';
+import { Users } from '../../../entities/Users';
 
 export class RegisterDto extends Users {
   @ApiProperty({ description: '用户名' })

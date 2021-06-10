@@ -9,7 +9,7 @@ export const databaseConfig: TypeOrmModuleAsyncOptions = {
     username: process.env.MYSQL_USER || 'root',
     password: process.env.MYSQL_PASSWORD,
     database: process.env.MYSQL_DATABASE,
-    entities: [join(__dirname, '../module/entities/*.{ts,js}')],
+    entities: [join(__dirname, '../entities/*.{ts,js}')],
     migrations: ['migration/*.ts'],
     timezone: 'UTC',
     charset: 'utf8mb4',

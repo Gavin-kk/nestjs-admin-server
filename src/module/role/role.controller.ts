@@ -12,7 +12,7 @@ import { RoleService } from './role.service';
 import { ApiBearerAuth, ApiOperation, ApiTags } from '@nestjs/swagger';
 import { AddRoleDto } from './dto/add-role.dto';
 import { CurrentUser } from '../../common/decorator/current-user.decorator';
-import { Users } from '../entities/Users';
+import { Users } from '../../entities/Users';
 import { UpdateRoleDto } from './dto/update-role.dto';
 import { SearchDto } from './dto/search.dto';
 import { InfoDto } from './dto/info.dto';

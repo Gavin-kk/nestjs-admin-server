@@ -1,6 +1,6 @@
 import { IsNotEmpty } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
-import { Users } from '../../entities/Users';
+import { Users } from '../../../entities/Users';
 
 export class UpdateDto extends Users {
   @IsNotEmpty({ message: '用户id不可为空' })
